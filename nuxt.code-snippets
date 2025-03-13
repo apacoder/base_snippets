@@ -1,0 +1,13 @@
+{
+    "b:use_nuxt_app": {
+		"prefix": "b:use_nuxt_app",
+		"body": [ "const { $$0 } = useNuxtApp()" ],
+		"scope": "typescript",
+	},
+
+    "b:use_runtime_config": {
+        "prefix": "b:use_runtime_config",
+        "body": [ "const config = useRuntimeConfig()" ],
+        "scope": "typescript",
+    },
+}
