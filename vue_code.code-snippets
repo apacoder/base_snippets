@@ -1,0 +1,23 @@
+{
+    "b:ui:tab-container": {
+        "prefix": "b:ui:tab-container",
+        "body": [
+            "<TabContainer>",
+            "  <TabItem title=\"$1\" >",
+            "    $0",
+            "  </TabItem>",
+            "  <TabItem title=\"\">",
+            "  </TabItem>",
+            "</TabContainer>"
+        ],
+    },
+
+    "b:ui:tab-item": {
+        "prefix": "b:ui:tab-item",
+        "body": [
+            "<TabItem title=\"$1\" >",
+            "  $0",
+            "</TabItem>"
+        ],
+    },
+}

@@ -1,0 +1,7 @@
+{
+	"b:route_test": {
+		"prefix": "b:route_test",
+		"body": [ "Route::get('/test', fn() => ['test' => 'test']);"],
+		"scope": "php",
+	},
+}
