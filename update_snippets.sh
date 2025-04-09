@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Archivo de salida
-OUTPUT_FILE="../merged-uca.code-snippets"
+FILE_NAME="merged-uca.code-snippets"
+OUTPUT_FILE="$HOME/.config/Code/User/snippets/$FILE_NAME"
 
 # Iniciar el archivo JSON
 echo "{" > "$OUTPUT_FILE"
@@ -29,6 +30,8 @@ for file in *.code-snippets; do
 done
 
 # Cerrar el JSON
+
+# Copiar el contenido de la variable $OUTPUT_FILE al archivo de salida
 echo "}" >> "$OUTPUT_FILE"
 
 echo "✅ Se han fusionado los snippets en $OUTPUT_FILE"

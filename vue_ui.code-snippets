@@ -1,0 +1,83 @@
+{
+    "b:ui:tab-container": {
+        "prefix": "b:ui:tab-container",
+        "body": [
+            "<TabContainer>",
+            "\t<TabItem title=\"$1\">",
+            "\t\t$0",
+            "\t</TabItem>",
+            "\t<TabItem title=\"\">",
+            "\t\t",
+            "\t</TabItem>",
+            "</TabContainer>"
+        ],
+        "scope": "html, vue",
+    },
+
+    "b:ui:tab-item": {
+        "prefix": "b:ui:tab-item",
+        "body": [
+            "<TabItem title=\"$1\">",
+            "\t$0",
+            "</TabItem>"
+        ],
+        "scope": "html, vue",
+    },
+
+    "b:ui:iconify-icon": {
+        "prefix": "b:ui:iconify-icon",
+        "body": [ "<iconify-icon icon=\"$1\"/>" ],
+        "scope": "html, vue",
+    },
+
+    "b:ui:form-input-select": {
+        "prefix": "b:ui:form-input-select",
+        "body": [ "<FormInput type=\"select\" label=\"$1\" value-prop=\"$2\" label-prop=\"$3\" v-model=\"$4\" :options=\"$5\" />" ],
+        "scope": "html, vue",
+    },
+
+    "b:ui:form-input-text": {
+        "prefix": "b:ui:form-input-text",
+        "body": [ "<FormInput type=\"text\" label=\"$1\" v-model=\"$2\" />" ],
+        "scope": "html, vue",
+    },
+
+
+	"b:ui:button": {
+		"prefix": "b:ui:button",
+		"body": [
+		"<button class=\"btn-${1|dark,light,outline|}-${2|uca,slate,amber,rose,emerald|}\">$3</button>"
+		],
+		"description": "Crea un botón con clase usando doble elección: primer valor (vacío, light o outline) y segundo valor (color)",
+        "scope": "html, vue",
+	},
+
+    "b:ui:server-table": {
+        "prefix": "b:ui:server-table",
+        "body": [
+            "<ServerTable",
+            "\tref=\"$1\"",
+            "\turl=\"$2\"",
+            "\ttitle=\"$3\"",
+            "\t:data=\"{}\"",
+            "\t:definition=\"{",
+            "\t\tcolumna: 'Columna'",
+            "\t}\"",
+            ">",
+            "</ServerTable>"
+        ],
+        "scope": "html, vue"
+    },
+
+
+    "b:ui:server-table-item": {
+        "prefix": "b:ui:server-table-item",
+        "body": [
+            "<template #item-$1=\"{ item }\">",
+            "\t{{ item.$1 }}",
+            "</template>"
+        ],
+        "scope": "html, vue"
+    }
+
+}

@@ -16,4 +16,5 @@
 		"body": [ "interface $1 {", "\t$0", "}" ],
 		"scope": "typescript",
 	},
+
 }
