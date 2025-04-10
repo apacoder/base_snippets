@@ -1,7 +1,27 @@
 {
+	// PHP
 	"b:route_test": {
 		"prefix": "b:route_test",
 		"body": [ "Route::get('/test', fn() => ['test' => 'test']);"],
 		"scope": "php",
+	},
+
+	// Markdown
+	"b:image": {
+		"prefix": "b:image",
+		"body": [
+			"![${1:alt}](${2:url})$0"
+		],
+		"scope": "markdown",
+	},
+
+	"b:table": {
+		"prefix": "b:table",
+		"body": [
+			"| ${1:header} | ${2:header} |",
+			"| --- | --- |",
+			"| ${3:row} | ${4:row} |"
+		],
+		"scope": "markdown",
 	},
 }
