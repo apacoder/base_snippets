@@ -1,4 +1,4 @@
-## Agrega snippets extra a la base de snippets de vscode
+# Agrega snippets extra a la base de snippets de vscode
 
 Por cada vez que se haga `git pull` o se modifiquen los snippets definidos en este repositorio, hay que actualizar la base de snippets de vscode.
 Para ello, se debe ejecutar el siguiente comando:
@@ -14,7 +14,7 @@ En la carpeta
 
 Donde `$HOME` es tu carpeta de usuario `/home/<user>`
 
-## Modo de uso
+# Modo de uso
 Para usar los snippets, simplemente abre un archivo de código en VSCode y comienza a escribir el prefijo del snippet. Aparecerá una lista de sugerencias y podrás seleccionar el snippet que deseas insertar.
 
 No es necesario poner todas las letras del nombre del snippet para invocarlo, aqui tienes algunos ejemplos:
@@ -28,6 +28,8 @@ A medida se vaya escribiendo el prefijo de invocación, se irán filtrando los s
 
 
 ![1](docs/images/1.png)
+
+# Vista previa de snippets
 
 Cuando estés en el listado de snippets, puedes presionar `Ctrl + Espacio` para ver una vistaprevia del snippet que se va a insertar. Esto es útil para ver el contenido del snippet antes de insertarlo.
 
