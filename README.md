@@ -26,6 +26,9 @@ No es necesario poner todas las letras del nombre del snippet para invocarlo, aq
 
 A medida se vaya escribiendo el prefijo de invocación, se irán filtrando los snippets que coincidan con el prefijo escrito. Cuando ya lo tengas, presionar `Tab` o desplazarte con las flechas y presionar `Enter` para insertar el snippet en el código.
 
-<!-- insertar imagen que está en docs/images/1.png -->
 
 ![1](docs/images/1.png)
+
+Cuando estés en el listado de snippets, puedes presionar `Ctrl + Espacio` para ver una vistaprevia del snippet que se va a insertar. Esto es útil para ver el contenido del snippet antes de insertarlo.
+
+"![2](docs/images/2.png)"
