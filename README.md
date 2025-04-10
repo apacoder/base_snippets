@@ -31,4 +31,4 @@ A medida se vaya escribiendo el prefijo de invocación, se irán filtrando los s
 
 Cuando estés en el listado de snippets, puedes presionar `Ctrl + Espacio` para ver una vistaprevia del snippet que se va a insertar. Esto es útil para ver el contenido del snippet antes de insertarlo.
 
-"![2](docs/images/2.png)"
+![2](docs/images/2.png)
