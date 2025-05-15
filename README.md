@@ -4,7 +4,7 @@ Por cada vez que se haga `git pull` o se modifiquen los snippets definidos en es
 Para ello, se debe ejecutar el siguiente comando:
 
 ```bash
-./update_snippets.sh
+./actualizar_snippets.sh
 ```
 Esto generará un archivo 
 > merged-uca.code-snippets
