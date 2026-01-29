@@ -15,7 +15,7 @@
 
     "b:const_ref": {
 		"prefix": "b:const_ref",
-		"body": [ "const $1 = ref_jueputa($0)" ],
+		"body": [ "const $1 = ref($0)" ],
 		"scope": "typescript, javascript",
 	},
 }
