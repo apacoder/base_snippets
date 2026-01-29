@@ -42,7 +42,6 @@
         "scope": "html, vue",
     },
 
-
 	"b:ui:button": {
 		"prefix": "b:ui:button",
 		"body": [
@@ -69,7 +68,6 @@
         "scope": "html, vue"
     },
 
-
     "b:ui:server-table-item": {
         "prefix": "b:ui:server-table-item",
         "body": [
@@ -79,23 +77,5 @@
         ],
         "scope": "html, vue"
     },
-
-    "b:ui:modal": {
-        "prefix": "b:ui:modal",
-        "body": [
-            "<Modal ref=\"modal\" title=\"$1\">",
-            "  <template #body>",
-            "    $0",
-            "  </template>",
-            "",
-            "  <template #buttons>",
-            "    <Button mode=\"light\" color=\"slate\" icon=\"mdi-close\" @click=\"modal.close()\">Cancelar</Button>",
-            "    <Button mode=\"dark\" color=\"uca\" icon=\"mdi-check\" @click=\"\">Aceptar</Button>",
-            "  </template>",
-            "</Modal>"
-        ],
-        "scope": "html,vue"
-    }
-
 
 }

@@ -1,4 +1,5 @@
 {
+    // Nuxt
     "b:nuxt:use_nuxt_app": {
 		"prefix": "b:nuxt:use_nuxt_app",
 		"body": [ "const { $$0 } = useNuxtApp()" ],

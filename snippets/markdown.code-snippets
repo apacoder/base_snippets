@@ -1,12 +1,5 @@
 {
-	// PHP
-	"b:route_test": {
-		"prefix": "b:route_test",
-		"body": [ "Route::get('/test', fn() => ['test' => 'test']);"],
-		"scope": "php",
-	},
-
-	// Markdown
+    // Markdown
 	"b:image": {
 		"prefix": "b:image",
 		"body": [

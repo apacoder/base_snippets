@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Archivo de salida
-FILE_NAME="merged-uca.code-snippets"
+FILE_NAME="custom-user.code-snippets"
 OUTPUT_FILE="$HOME/.config/Code/User/snippets/$FILE_NAME"
 
 # Iniciar el archivo JSON
@@ -11,7 +11,7 @@ echo "{" > "$OUTPUT_FILE"
 FIRST=true
 
 # Iterar sobre todos los archivos .code-snippets en el directorio actual
-for file in *.code-snippets; do
+for file in snippets/*.code-snippets; do
     if [[ "$file" == "$OUTPUT_FILE" ]]; then
         continue
     fi

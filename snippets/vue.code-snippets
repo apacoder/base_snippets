@@ -1,0 +1,21 @@
+{
+    // Vue
+	"b:composable": {
+		"prefix": "b:composable",
+		"body": [
+			"export function use$1() {",
+			"\t$0",
+			"\treturn {",
+			"\t\t",
+			"\t}",
+			"}"
+		],
+		"scope": "typescript, javascript"
+	},
+
+    "b:const_ref": {
+		"prefix": "b:const_ref",
+		"body": [ "const $1 = ref_jueputa($0)" ],
+		"scope": "typescript, javascript",
+	},
+}
