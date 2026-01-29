@@ -18,4 +18,25 @@
 		"body": [ "const $1 = ref($0)" ],
 		"scope": "typescript, javascript",
 	},
+
+    "b:define_props_ts": {
+        "prefix": "b:define_props_ts",
+        "body": [
+            "const props = defineProps<{",
+            "\t$0",
+            "}>()"
+        ],
+        "scope": "typescript, javascript"
+    },
+
+    "b:define_emits": {
+        "prefix": "b:define_emits",
+        "body": [
+            "const emit = defineEmits<{",
+            "\t(event: '$0'): void;",
+            "}>()"
+        ],
+        "scope": "typescript, javascript"
+    },
+
 }
