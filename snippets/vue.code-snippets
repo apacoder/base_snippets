@@ -3,7 +3,7 @@
 	"b:composable": {
 		"prefix": "b:composable",
 		"body": [
-			"export function use$1() {",
+			"export const use$1 = () => {",
 			"\t$0",
 			"\treturn {",
 			"\t\t",

@@ -6,6 +6,16 @@
 		"scope": "typescript, javascript",
 	},
 
+    "b:export_const_function": {
+        "prefix": "b:export_const_function",
+        "body": [
+            "export const $1 = () => {",
+            "\t$0",
+            "}"
+        ],
+        "scope": "typescript, javascript",
+    },
+
 	"b:const_async_function": {
 		"prefix": "b:const_async_function",
 		"body": [ "const $1 = async () => {", "\t$0", "}" ],
